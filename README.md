@@ -105,3 +105,5 @@ Apply the same preprocessing transforms
 Pass the image through the model
 
 Output the predicted cloud class
+
+Network URL: http://10.203.161.243:8501
