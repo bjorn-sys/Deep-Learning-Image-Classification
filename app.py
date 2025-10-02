@@ -116,7 +116,7 @@ uploaded_file = st.file_uploader("📤 Upload a cloud image", type=["jpg", "jpeg
 if uploaded_file is not None:
     # Display uploaded image
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Image", use_container_width=True)
+    st.image(image, caption="Uploaded Image", use_column_width=True)
 
     # Predict
     with st.spinner("🔍 Classifying..."):
